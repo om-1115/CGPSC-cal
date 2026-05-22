@@ -153,7 +153,7 @@ function ArrowIcon() {
 
 function MailIcon() {
   return (
-    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" aria-hidden="true" flexShrink={0}>
+    <svg viewBox="0 0 20 20" width="18" height="18" fill="none" aria-hidden="true" style={{ flexShrink: 0 }}>
       <rect x="2" y="4" width="16" height="12" rx="2" stroke="currentColor" strokeWidth="1.4" />
       <path d="M2 7l8 5 8-5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
     </svg>
